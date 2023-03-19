@@ -25,6 +25,12 @@ public class FindMaximum {
                 System.out.println("Maximum number: " + max.findMax(40, 30, 10));
                 System.out.println("Maximum number: " + max.findMax(40, 20, 50));
                 System.out.println("Maximum number: " + max.findMax(50, 40, 30));
+                FindMaximum maxFloat = new FindMaximum();  //Creating object with Float generics.
+                System.out.println("Maximum number: " + maxFloat.findMax(40f, 30f, 10f));
+                System.out.println("Maximum number: " + maxFloat.findMax(40f, 20f, 50f));
+                System.out.println("Maximum number: " + maxFloat.findMax(50f, 40f, 30f));
+
             }
         }
-    }}
+    }
+}
